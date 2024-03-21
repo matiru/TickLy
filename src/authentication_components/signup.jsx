@@ -7,10 +7,10 @@ import small_logo from "../resources/logo5.png";
 
 function Sign_up_Page() {
   return (
-    <div className ='sign_up_page'>
-    <div className="sign_up_container_top_logo">
+    <div className ='login_page'>
+
+    <div className="login_container_top_logo">
             <img src={small_logo} className="sign_up_logo_right"></img>
-        
         </div>
     <div className="sign_up_container">
 
