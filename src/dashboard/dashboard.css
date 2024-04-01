@@ -1,0 +1,133 @@
+.dashboard_container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex: 0.85;
+
+
+}
+.dashboard_container>span{
+    margin-left: 50px;
+}
+.dashboard_container>span>h1{
+    color: #00d0c7;
+    
+    font-size: 40px;
+
+}
+
+.dashboard_header {
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    border-radius: 10px;
+
+}
+
+.dashboard_header>h1 {
+    font-size: 30px;
+}
+
+.dashboard_header_bar {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr)
+}
+
+.dashboard_header_item1:hover {
+    color: #00d0c7;
+    
+}
+
+.dashboard_header_item1 {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    color: #9A9A9A;
+
+
+}
+
+.dashboard_body {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    gap: auto;
+}
+
+.dashboard_body_item1:hover {
+    background-color: #5a5d5d
+}
+
+
+
+
+
+.dashboard_body_item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+
+
+}
+
+.dashboard_body_item1>h2 {
+    color: #00d0c7;
+
+}
+
+.dashboard_body_item1>h1 {
+
+    color: #FFBB94;
+    font-size: 100px;
+    margin-top: -30px;
+
+}
+.dashboard_footer{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    gap: auto;
+    
+}
+.dashboard_footer_barchart{
+    
+    border-radius: 10px;
+    margin: auto;
+    background-color: white;
+    
+}
+.dashboard_footer_barchart:hover{
+    background-color: #5a5d5d
+}
+.dashboard_footer_piechart:hover{
+    background-color: #5a5d5d
+}
+.dashboard_footer_piechart{
+
+    border-radius: 10px;
+    margin: auto;
+    background-color: white;
+    
+}
+.dashboard_footer_barchart>h4{
+    color: #00d0c7;
+}
+.dashboard_footer_piechart>h4{
+    color: #00d0c7;
+}
