@@ -99,6 +99,7 @@
 }
 .dashboard_footer{
     display: flex;
+    justify-content: space-between;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 20px;
@@ -113,10 +114,10 @@
     
 }
 .dashboard_footer_barchart:hover{
-    background-color: #5a5d5d
+    background-color:     #FFBB94;
 }
 .dashboard_footer_piechart:hover{
-    background-color: #5a5d5d
+    background-color:     #FFBB94;
 }
 .dashboard_footer_piechart{
 

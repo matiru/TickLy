@@ -31,6 +31,18 @@ export default function NewTicket(){
                 
               </select>
             </div>
+            <div className="ticket_client">
+              
+              <h5>*Client~Email:</h5>
+              <input
+                className="select_subject"
+            
+              >
+                
+                
+              </input>
+            </div>
+            
           
               <div className="ticket_subject">
               

@@ -66,6 +66,7 @@
     border-collapse: collapse;
     width: 100%;
     font-size: 20px;
+    padding: 20px;
     margin-top: 20px;
    
 }
@@ -76,6 +77,8 @@
 
 }
 .ticket_table_cell{
+  width: fit-content;
+  margin: 0px 0px;
 
 }
 .ticket_table thead {
@@ -109,7 +112,16 @@ background-color: #fffbfa;
     width: 800px;
     height: 800px;
     margin: auto;
-    padding-left:20px
+    padding-left:20px;
+    border-radius:10px
+  }
+  .ticket_client{
+    display: flex;
+    gap : 12px;
+    align-items: center;
+  }
+  .ticket_client>h5{
+    font-size: 20px;
   }
   .ticket_company{
     display: flex;

@@ -1,7 +1,7 @@
 
 
 
-export default function TicketsTable(){
+export default function CompaniesTable(){
     
 
 
@@ -17,17 +17,19 @@ return(
                     <label>Search:</label>
                     <input type="text" className="search_ticket"  />
                   </div>
-      <h2>Tickets Table</h2>
+      <h2>Companies Table</h2>
       <table className="ticket_table">
       <thead>
         <tr >
-        <td className='tickets_table_header_cell'> <h4>Ticket ID</h4> </td>
-           <td className='tickets_table_header_cell'> <h4>Date</h4></td>
-           <td className='tickets_table_header_cell'> <h4>Subject</h4></td>
-           <td className='tickets_table_header_cell'> <h4>Client</h4></td>
-           <td className='tickets_table_header_cell'> <h4>Agent</h4></td>  
-           <td className='tickets_table_header_cell'> <h4>Status</h4></td>
-           <td className="tickets_table_header_cell"><h4>Details</h4></td>
+        <td className='tickets_table_header_cell'> <h4>Company ID</h4> </td>
+        <td className='tickets_table_header_cell'> <h4>Location</h4></td>  
+           <td className='tickets_table_header_cell'> <h4>Owner</h4></td>
+           <td className='tickets_table_header_cell'> <h4>Contact Person</h4></td>
+           <td className='tickets_table_header_cell'> <h4>Contact Person Email</h4></td>
+           <td className='tickets_table_header_cell'> <h4>Open Tickets</h4></td>
+           <td className="tickets_table_header_cell"><h4>Closed Tickets</h4></td>
+           <td className='tickets_table_header_cell'> <h4>Edit Details</h4></td>  
+
         </tr>
         </thead>
 
@@ -35,7 +37,8 @@ return(
             <tr>
                 <td className="ticket_table_cell"><h4>Status</h4></td>
                 <td className="ticket_table_cell"><h4>Status</h4></td>
-                <td className="ticket_table_cell"><h4>Licences Renewal and Activation</h4></td>
+                <td className="ticket_table_cell"><h4>Status</h4></td>
+                <td className="ticket_table_cell"><h4>Status</h4></td>
                 <td className="ticket_table_cell"><h4>Status</h4></td>
                 <td className="ticket_table_cell"><h4>Status</h4></td>
                 <td className="ticket_table_cell"><h4>Status</h4></td>
@@ -46,7 +49,8 @@ return(
             <tr>
                 <td className="ticket_table_cell"><h4>Status</h4></td>
                 <td className="ticket_table_cell"><h4>Status</h4></td>
-                <td className="ticket_table_cell"><h4>Licences Renewal and Activation</h4></td>
+                <td className="ticket_table_cell"><h4>Status</h4></td>
+                <td className="ticket_table_cell"><h4>Status</h4></td>
                 <td className="ticket_table_cell"><h4>Status</h4></td>
                 <td className="ticket_table_cell"><h4>Status</h4></td>
                 <td className="ticket_table_cell"><h4>Status</h4></td>
@@ -56,10 +60,10 @@ return(
             <tr>
                 <td className="ticket_table_cell"><h4>Status</h4></td>
                 <td className="ticket_table_cell"><h4>Status</h4></td>
-                 <td className="ticket_table_cell"><h4>Licences Renewal and Activation</h4></td>
                 <td className="ticket_table_cell"><h4>Status</h4></td>
                 <td className="ticket_table_cell"><h4>Status</h4></td>
-
+                <td className="ticket_table_cell"><h4>Status</h4></td>
+                <td className="ticket_table_cell"><h4>Status</h4></td>
                 <td className="ticket_table_cell"><h4 onClick={console.log('capenr')}>Status </h4></td>
                 <td className="ticket_table_cell"><button onClick={handle_ticket_details}>: </button></td>
                 

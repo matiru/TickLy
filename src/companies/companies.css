@@ -1,0 +1,50 @@
+.add_company_container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex: 0.85;
+    background-color: white;
+
+}
+.company_details_form{
+    width: fit-content;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    background-color: #eef5f5;
+    padding: 20px;
+}
+.add_company_details{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.company_detail_input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-bottom: solid 1px #D9D9D9;
+    background-color: #eef5f5;
+    
+}
+.company_detail_label{
+   
+}
+.company_details_button{
+    margin: auto;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:   #00d0c7;
+    color: white;
+
+}
+.company_details_button:hover{
+    
+    background-color:  #FFBB94;
+    color: black;
+}

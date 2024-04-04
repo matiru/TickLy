@@ -6,8 +6,8 @@ import ExitToAppOutlinedIcon from '@mui/icons-material/ExitToAppOutlined';
 import './dashboard.css'
 import { FaStar } from 'react-icons/fa'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ReferenceLine, PieChart, Pie } from 'recharts';
-import { Title } from "@mui/icons-material";
-
+import { Outlet } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 export default function Dashboard() {
     const data = [
@@ -32,55 +32,56 @@ export default function Dashboard() {
 
     return (
         <div className="dashboard_container">
-        <span>
-        <h1>Welcome back matiru</h1>
-        </span>
-          <div className="dashboard_header">
-                
+            <span>
+                <h1>Welcome back matiru</h1>
+            </span>
+            <div className="dashboard_header">
+
                 <div className="dashboard_header_bar">
 
-                    <div className="dashboard_header_item1"><ApartmentRoundedIcon fontSize="large" /><h2>Companies</h2></div>
-                    <div className="dashboard_header_item1"><PeopleAltOutlinedIcon fontSize="large" /><h2>Clients</h2></div>
-                    <div className="dashboard_header_item1"><ManageAccountsOutlinedIcon fontSize="large" /><h2>Profile</h2></div>
-                    <div className="dashboard_header_item1"><ExitToAppOutlinedIcon fontSize="large" /><h2>Signout</h2></div>
+                    <Link to={'/tickly/companies'} className="tickets_link">      <div className="dashboard_header_item1"><ApartmentRoundedIcon fontSize="large" /><h2>Companies</h2></div></Link>
+                    <Link to={'/tickly/clients'} className="tickets_link">      <div className="dashboard_header_item1"><PeopleAltOutlinedIcon fontSize="large" /><h2>Clients</h2></div></Link>
+                    <Link to={'/tickly/profile'} className="tickets_link">     <div className="dashboard_header_item1"><ManageAccountsOutlinedIcon fontSize="large" /><h2>Profile</h2></div></Link>
+                    <Link to={'/'} className="tickets_link">   <div className="dashboard_header_item1"><ExitToAppOutlinedIcon fontSize="large" /><h2>Signout</h2></div></Link>
 
                 </div>
 
             </div>
 
             <div className="dashboard_body">
-                <div className="dashboard_body_item1"><h2>My Open Tickets</h2>
-                    <h1>12</h1></div>
-                    <div ></div>
-                <div className="dashboard_body_item1"><h2>My Pending Tickets</h2><h1 >01</h1></div>
+                < Link to={'/tickly/tickets'} className="tickets_link"> <div className="dashboard_body_item1"><h2>My Open Tickets</h2>
+                    <h1>12</h1></div></Link>
+                <div ></div>
+                < Link to={'/tickly/tickets'} className="tickets_link">   <div className="dashboard_body_item1"><h2>My Pending Tickets</h2><h1 >01</h1></div></Link>
                 <div ></div>
                 <div className="dashboard_body_item1"><h2>My Rating</h2><p><FaStar size={40} color="gold" /><FaStar size={40} color="gold" /><FaStar size={40} color="gold" /></p></div>
             </div>
             <div className="dashboard_footer">
-                
-            <div className="dashboard_footer_barchart">
-            <h4>This week's tickets </h4>
-                <BarChart width={500} height={430} data={data}>
-                    {/* <Title dataKey = " This weeks tickets "/> */}
 
-                    <XAxis dataKey="name" />
-                    <YAxis />
-                    <Tooltip />
-                    <Legend />
-                    <ReferenceLine y={1400} stroke="red" label="Target" />
-                    <Bar dataKey="tickets" fill="#00D0C7" />
-                </BarChart>
-            </div>
-            
+                <div className="dashboard_footer_barchart">
+                    <h4>This week's tickets </h4>
+                    <BarChart width={600} height={300} data={data}>
+                        {/* <Title dataKey = " This weeks tickets "/> */}
 
-            <div className="dashboard_footer_piechart">
-            <h4>Total tickets </h4>
-                <PieChart width={500} height={430}>
-                    <Pie data={data2} dataKey="value" nameKey="name"
-                    />
-                    <Tooltip />
-                    <Legend />
-                </PieChart>
+                        <XAxis dataKey="name" />
+                        <YAxis />
+                        <Tooltip />
+                        <Legend />
+                        <ReferenceLine y={1400} stroke="red" label="Target" />
+                        <Bar dataKey="tickets" fill="#00D0C7" />
+                    </BarChart>
+                </div>
+
+
+
+                <div className="dashboard_footer_piechart">
+                    <h4>Total tickets </h4>
+                    <PieChart width={600} height={300}>
+                        <Pie data={data2} dataKey="value" nameKey="name"
+                        />
+                        <Tooltip />
+                        <Legend />
+                    </PieChart>
                 </div>
             </div>
 
