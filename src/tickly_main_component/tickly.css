@@ -1,20 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 
-.main_page{
+.main_page {
     display: flex;
     font-family: "Patrick Hand", cursive;
 }
-.main_page_content{
+
+.main_page_content {
     background-color: #eef5f5;
     display: flex;
     font-family: "Patrick Hand", cursive;
     flex-grow: 1;
     height: 100vh;
 }
-
-
-
-
-
-

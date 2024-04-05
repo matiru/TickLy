@@ -1,32 +1,37 @@
-.agents_container{
+.agents_container {
     display: flex;
     flex-direction: column;
     height: 100vh;
     flex: 0.85;
     background-color: white;
 }
-.agents_header{
+
+.agents_header {
     display: flex;
     align-items: center;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 20px;
-    gap:200px;
+    gap: 200px;
 }
-.agents_header>span{
+
+.agents_header>span {
 
     display: flex;
     gap: 20px;
 }
-.agents_link{
+
+.agents_link {
     text-decoration: none;
-    color:#9A9A9A
+    color: #9A9A9A
 }
-.agents_link:focus{
+
+.agents_link:focus {
     text-decoration: none;
-    color:#FFBB94;
+    color: #FFBB94;
 }
-.agents_div{
+
+.agents_div {
     font-size: 25px;
     width: fit-content;
     border-radius: 10px;
@@ -37,77 +42,87 @@
     padding-right: 20px;
     margin-right: 20px;
     box-shadow: solid 1px #D9D9D9;
-  }
+}
 
 
 
-.search_ticket{
+.search_ticket {
     height: 30px;
     width: 200px;
     border-radius: 10px;
     border: solid 1px #9A9A9A;
 }
-.search_bar_div>label{
+
+.search_bar_div>label {
     font-size: 20px;
     color: #9A9A9A;
     margin-right: 20;
-    
+
 }
-.agents_listing_container{
+
+.agents_listing_container {
     margin-left: 50px;
     margin-right: 50px;
     background-color: #eef5f5;
     height: 100%;
 }
-.agent_switch_on{
+
+.agent_switch_on {
     color: #FFBB94;
 }
-.profile_card_container{
-  
+
+.profile_card_container {
+
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     font-size: 20px;
-    margin-top: 20px;  
+    margin-top: 20px;
     gap: 20px;
 }
-.agents_profile_card{
+
+.agents_profile_card {
     margin: 20px;
-    width : 400px;
+    width: 400px;
     height: fit-content;
     background-color: white;
     border-radius: 20px;
 
 }
-.agents_profile_header{
+
+.agents_profile_header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     height: fit-content;
-    border-bottom: 1px solid ;
-    
+    border-bottom: 1px solid;
+
 }
-.agent_details_container{
+
+.agent_details_container {
     display: flex;
     flex-direction: column;
-    
-    
+
+
 }
-.agent_details_container>span{
+
+.agent_details_container>span {
     padding: 0px 20px;
     display: flex;
     align-items: center;
     gap: 10px;
     margin-bottom: -30px;
     justify-content: center;
-  
+
 }
-.agent_search_bar_div>label{
+
+.agent_search_bar_div>label {
     font-size: 20px;
     color: #9A9A9A;
     margin-right: 20;
-    
+
 }
-.agent_search_bar_div{
+
+.agent_search_bar_div {
     padding-top: 20px;
     padding-left: 20px;
 

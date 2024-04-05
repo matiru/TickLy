@@ -5,7 +5,7 @@ import './companies.css'
 
 
 export default function NewCompany() {
-  
+
 
 
     return (
@@ -25,7 +25,7 @@ export default function NewCompany() {
                     <input className="company_detail_input"
                         type="tel"
                         id="phone"
-                      
+
                         required
                     />
                 </div>
@@ -34,7 +34,7 @@ export default function NewCompany() {
                     <input className="company_detail_input"
                         type="tel"
                         id="phone"
-                      
+
                         required
                     />
                 </div>
@@ -47,13 +47,13 @@ export default function NewCompany() {
                         required
                     />
                 </div>
-                
+
                 <div className="add_company_details">
                     <label className="company_detail_label" htmlFor="email">Email:</label>
                     <input className="company_detail_input"
                         type="email"
                         id="email"
-                        
+
                         required
                     />
                 </div>
@@ -62,7 +62,7 @@ export default function NewCompany() {
                     <input className="company_detail_input"
                         type="tel"
                         id="phone"
-                      
+
                         required
                     />
                 </div>
@@ -80,7 +80,7 @@ export default function NewCompany() {
                     <input className="company_detail_input"
                         type="email"
                         id="email"
-                        
+
                         required
                     />
                 </div>
@@ -89,14 +89,14 @@ export default function NewCompany() {
                     <input className="company_detail_input"
                         type="tel"
                         id="phone"
-                      
+
                         required
                     />
                 </div>
-              
-                
+
+
                 <div className="add_company_details">
-                <button className="company_details_button" type="submit">register</button>
+                    <button className="company_details_button" type="submit">register</button>
                 </div>
             </form>
         </div>

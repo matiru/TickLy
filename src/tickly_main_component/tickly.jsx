@@ -8,14 +8,14 @@ import './tickly.css'
 
 
 
-export default function TicklyMainPage(){
+export default function TicklyMainPage() {
 
-    return(
+    return (
         <div className="main_page">
             <div className="main_page_content">
-                <Sidebar/>
+                <Sidebar />
 
-                <Outlet/>
+                <Outlet />
 
             </div>
         </div>

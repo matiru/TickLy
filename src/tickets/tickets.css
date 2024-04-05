@@ -2,38 +2,41 @@
 
 
 .tickets_container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    flex: 0.85;
-    background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  flex: 0.85;
+  background-color: white;
 }
 
-.tickets_header{
-    display: flex;
-    align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 20px;
+.tickets_header {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
 
-    gap:200px;
-    
-}
-.tickets_header>span{
+  gap: 200px;
 
-    display: flex;
-    gap: 20px;
-}
-.tickets_link{
-    text-decoration: none;
-    color:#9A9A9A
-}
-.tickets_link:focus{
-    text-decoration: none;
-    color:#FFBB94;
 }
 
-.tickets_div{
+.tickets_header>span {
+
+  display: flex;
+  gap: 20px;
+}
+
+.tickets_link {
+  text-decoration: none;
+  color: #9A9A9A
+}
+
+.tickets_link:focus {
+  text-decoration: none;
+  color: #FFBB94;
+}
+
+.tickets_div {
   font-size: 25px;
   width: fit-content;
   border-radius: 10px;
@@ -45,150 +48,179 @@
   margin-right: 20px;
   box-shadow: solid 1px #D9D9D9;
 }
-.search_ticket{
-    height: 30px;
-    width: 200px;
-    border-radius: 10px;
-    border: solid 1px #9A9A9A;
-}
-.search_bar_div>label{
-    font-size: 20px;
-    color: #9A9A9A;
-    margin-right: 20;
-    
-}
-.tickets_listing_container{
-    margin-left: 50px;
-    margin-right: 50px;
-}
-.ticket_table{
 
-    border-collapse: collapse;
-    width: 100%;
-    font-size: 20px;
-    padding: 20px;
-    margin-top: 20px;
-   
+.search_ticket {
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+  border: solid 1px #9A9A9A;
 }
-.tickets_table_header_cell{
-    height: 50px;
-    color: #00d0c7;
-    background-color: #D9D9D9;
+
+.search_bar_div>label {
+  font-size: 20px;
+  color: #9A9A9A;
+  margin-right: 20;
 
 }
-.ticket_table_cell{
+
+.tickets_listing_container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.ticket_table {
+
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 20px;
+  padding: 20px;
+  margin-top: 20px;
+
+}
+
+.tickets_table_header_cell {
+  height: 50px;
+  color: #00d0c7;
+  background-color: #D9D9D9;
+
+}
+
+.ticket_table_cell {
   width: fit-content;
-  margin: 0px 0px;
+  margin: 0px;
 
 }
+
 .ticket_table thead {
-    align-self: start;
-    
-}
-.ticket_table tr{
+  align-self: start;
 
-    
 }
-.ticket_table tr:nth-child(odd){
-background-color: #fffbfa;
+
+.ticket_table tr {}
+
+.ticket_table tr:nth-child(odd) {
+  background-color: #fffbfa;
 }
+
 .ticket_table tr:nth-child(even) {
-    background-color: #eef5f5;
-
-  }
-.create_ticket_container{
-    display: flex;
-    align-items: center;
-
+  background-color: #eef5f5;
 
 }
-.ticket_content{
-    font-family: "Patrick Hand", cursive;
-}
-  .create_ticket {
-    display: flex;
-    flex-direction: column;
-  background-color:#D9D9D9;
-    width: 800px;
-    height: 800px;
-    margin: auto;
-    padding-left:20px;
-    border-radius:10px
-  }
-  .ticket_client{
-    display: flex;
-    gap : 12px;
-    align-items: center;
-  }
-  .ticket_client>h5{
-    font-size: 20px;
-  }
-  .ticket_company{
-    display: flex;
-    gap : 35px;
-    align-items: center;
-  }
-  .ticket_company>h5{
-    font-size: 20px;
-  }
-  .ticket_subject{
-    display: flex;
-    gap : 50px;
-    align-items: center;
-  }
-  .ticket_description{
-    display: flex;
-    gap : 20px;
-    align-items: center;
-  }
-  .ticket_description>h5{
-    font-size: 20px
-  }
-  .ticket_subject>h5{
-    font-size: 20px     
-  }
-  .select_subject{
-    height: 40px;
-    width: 500px;
-    font-size: 15px;
-    border-radius: 10px;
-    font-family: "Patrick Hand", cursive;
-    font-size: 20px;
-  }
-.ticket_description_text_area{
-    height: 300px;
-    width: 600px;
-    font-family: "Patrick Hand", cursive;
-    border-radius: 10px;
-    padding-left: 20px;
-    padding-top: 20px;
-    font-size: 20px;
-}
-.ticket_buttons{
-    display: flex;
-    margin-top: 20px;
-    justify-content: center;
-    gap: 20px;
-    
-   
-}
-.submit_button{
-    height: 30px;
-    width: 100px;
-    border-radius: 10px;
-    font-family: "Patrick Hand", cursive;
-    font-size: 20px;
+
+.create_ticket_container {
+  display: flex;
+  align-items: center;
+
 
 }
-.submit_button:hover{
-    background-color: #FFBB94;
-    color: #00d0c7;
+
+.ticket_content {
+  font-family: "Patrick Hand", cursive;
 }
-.create_ticket_header{
-    display: flex;
-    justify-content: center;
+
+.create_ticket {
+  display: flex;
+  flex-direction: column;
+  background-color: #D9D9D9;
+  width: 800px;
+  height: 800px;
+  margin: auto;
+  padding-left: 20px;
+  border-radius: 10px
+}
+
+.ticket_client {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.ticket_client>h5 {
+  font-size: 20px;
+}
+
+.ticket_company {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+.ticket_company>h5 {
+  font-size: 20px;
+}
+
+.ticket_subject {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.ticket_description {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.ticket_description>h5 {
+  font-size: 20px
+}
+
+.ticket_subject>h5 {
+  font-size: 20px
+}
+
+.select_subject {
+  height: 40px;
+  width: 500px;
+  font-size: 15px;
+  border-radius: 10px;
+  font-family: "Patrick Hand", cursive;
+  font-size: 20px;
+}
+
+.ticket_description_text_area {
+  height: 300px;
+  width: 600px;
+  font-family: "Patrick Hand", cursive;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.ticket_buttons {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  gap: 20px;
+
 
 }
-.create_ticket_header>h3{
-    font-size: 30px;
+
+.table_ticket_details:hover {
+  color: #00d0c7;
+}
+
+.submit_button {
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  font-family: "Patrick Hand", cursive;
+  font-size: 20px;
+
+}
+
+.submit_button:hover {
+  background-color: #FFBB94;
+  color: #00d0c7;
+}
+
+.create_ticket_header {
+  display: flex;
+  justify-content: center;
+
+}
+
+.create_ticket_header>h3 {
+  font-size: 30px;
 }

@@ -40,7 +40,7 @@ function App() {
 
             <Route path="profile" element={<Profile />} >
               <Route index path="" element={<Profile />} />
-     
+
             </Route>
 
             <Route path="clients" element={<Clients />} >

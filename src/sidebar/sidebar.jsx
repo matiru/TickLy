@@ -13,7 +13,7 @@ export default function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebar_logo">
-                <img src= {small_logo} width={"100px"} height={"80px"}></img>
+                <img src={small_logo} width={"100px"} height={"80px"}></img>
                 <h1>TickLy</h1>
             </div>
 

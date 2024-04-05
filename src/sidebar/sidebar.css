@@ -18,12 +18,14 @@
 .sidebar_link>p {
     font-size: 25px;
 }
-.dashboard_icon{
+
+.dashboard_icon {
     color: black
 }
+
 .sidebar_link.active {
-    color:#FFBB94;
-    background-color:white; 
+    color: #FFBB94;
+    background-color: white;
 }
 
 .sidebar_content:hover {

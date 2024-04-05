@@ -1,70 +1,75 @@
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
 
-.login_page{
-  display: flex;
-  flex-direction: column;
-  background-color: #FFFfff;
-  font-family: "Patrick Hand", cursive;
-  width: fit-content  ;
-  margin: 100px auto;
-  height: 500px;
-  align-items: center;
-  justify-content: center;
+.login_page {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFfff;
+    font-family: "Patrick Hand", cursive;
+    width: fit-content;
+    margin: 100px auto;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
 
-  
 
-  
+
+
 }
 
 
-.login_logo_right{
+.login_logo_right {
     width: 100px;
     height: 80px;
-   
+
 
 }
 
 .login_container {
-  display: flex;
-  font-family: "Patrick Hand", cursive;
+    display: flex;
+    font-family: "Patrick Hand", cursive;
     justify-content: center;
     margin: auto;
     background-color: #FFFfff;
     border-radius: 2px;
 
 }
-.login_image_and_logo_container {
-  align-items: center;
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  background-color: #ffffff;
-  border-radius: 2px;
 
- 
+.login_image_and_logo_container {
+    align-items: center;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 2px;
+
+
 }
+
 .login_image {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  
-}
-.login_logo_left_container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 150px;
-}
-.login_logo_left {
-  width: 80px;
-  height: 60px;
-}
-.login_logo_left_container > p {
-  font-size: 50px;
-  color: #00d0c7;
+
 }
 
-.login_up_form_container{
+.login_logo_left_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+.login_logo_left {
+    width: 80px;
+    height: 60px;
+}
+
+.login_logo_left_container>p {
+    font-size: 50px;
+    color: #00d0c7;
+}
+
+.login_up_form_container {
 
     display: flex;
     flex-direction: column;
@@ -72,11 +77,12 @@
     background-color: #f5f5f5;
     padding-left: 20px;
     border-radius: 2px;
-    
+
 
 
 }
-.login_form{
+
+.login_form {
     display: flex;
     flex-direction: column;
     height: 430px;
@@ -85,19 +91,22 @@
     padding-left: 20px;
     padding-right: 20PX;
 
-    
+
 }
-.login_form_header{
+
+.login_form_header {
     display: flex;
     justify-content: center;
 }
-.login_form_header>h2{
- 
+
+.login_form_header>h2 {
+
     color: #00d0c7;
-    
-    
+
+
 }
-.login_input{
+
+.login_input {
     font-family: "Patrick Hand", cursive;
     height: 25px;
     width: 300px;
@@ -112,59 +121,70 @@
 
 
 }
-.login_form_footer{
+
+.login_form_footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    align-items:center;
+    align-items: center;
     margin-top: 50px;
 
 }
-.login_form_body{
-display: flex;
-flex-direction: column;
+
+.login_form_body {
+    display: flex;
+    flex-direction: column;
 }
-.login_form_arrow_span{
+
+.login_form_arrow_span {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
-    
-    
+
+
 }
-.login_form_arrow_span:hover{
+
+.login_form_arrow_span:hover {
     color: #FFBB94;
 
 }
-.sign_up_arrow{
+
+.sign_up_arrow {
     color: #00d0c7;
-    
-    
+
+
 }
-.sign_up_arrow:hover{
+
+.sign_up_arrow:hover {
     color: #FFBB94;
-    
+
 }
-.login_form_arrow_span>p{
+
+.login_form_arrow_span>p {
     font-size: medium;
     color: #00d0c7;
-    
-    
+
+
 }
-.login_form_arrow_span>p:hover{
-    color:#FFBB94;
+
+.login_form_arrow_span>p:hover {
+    color: #FFBB94;
 }
-.forgot_password{
+
+.forgot_password {
     color: #00d0c7;
     font-size: small;
     align-self: flex-end;
     margin-top: -10px;
 }
-.forgot_password:hover{
+
+.forgot_password:hover {
     color: #FFBB94;
     cursor: pointer;
 }
-.login_button{
+
+.login_button {
     background-color: #00d0c7;
     align-self: center;
     color: white;
@@ -175,7 +195,8 @@ flex-direction: column;
     border-radius: 10px;
     margin-bottom: 70px;
 }
-.login_button:hover{
+
+.login_button:hover {
     background-color: #FFBB94;
     cursor: pointer;
 }

@@ -1,47 +1,51 @@
-.add_user_container{
+.add_user_container {
     display: flex;
     flex-direction: column;
     height: 100vh;
     flex: 0.85;
     background-color: white;
 }
-.user_details_form{
+
+.user_details_form {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     background-color: #eef5f5;
     margin: 20px;
-    width : 400px;
+    width: 400px;
     height: fit-content;
     border-radius: 20px;
 
 }
-.add_user_details{
+
+.add_user_details {
     padding: 20px 20px;
     display: flex;
     align-items: center;
     gap: 10px;
     justify-content: center;
 }
-.user_detail_label{
-    
-}
-.user_detail_input{
+
+.user_detail_label {}
+
+.user_detail_input {
     height: 30px;
     width: 200px;
     border-radius: 10px;
 }
-.user_details_button{
+
+.user_details_button {
     align-self: center;
     width: 100px;
     height: 30px;
     border-radius: 10px;
     margin-bottom: 20px;
-    background-color:   #00d0c7;
+    background-color: #00d0c7;
     color: white;
 
 }
-.user_details_button:hover{
-    
-    background-color:  #FFBB94;
+
+.user_details_button:hover {
+
+    background-color: #FFBB94;
     color: black;
 }

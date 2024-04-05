@@ -76,7 +76,7 @@ export default function Agents_Cards() {
                         </span>
                     </div>
                 </div>
-                
+
                 <div className="agents_profile_card">
                     <span className="agents_profile_header">
                         <ModeEditOutlineOutlinedIcon className='agent_edit_button' />

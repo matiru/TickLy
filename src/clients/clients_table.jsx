@@ -4,6 +4,7 @@ import { FaStar } from 'react-icons/fa'
 import ToggleOnOutlinedIcon from '@mui/icons-material/ToggleOnOutlined';
 import { useState } from 'react';
 import ToggleOffOutlinedIcon from '@mui/icons-material/ToggleOffOutlined';
+import MoreVertOutlinedIcon from '@mui/icons-material/MoreVertOutlined';
 
 export default function ClientsTable() {
 
@@ -60,8 +61,9 @@ export default function ClientsTable() {
                         <td className="ticket_table_cell"><h4>Status</h4></td>
                         <td className="ticket_table_cell"><h4>Status</h4></td>
                         <td className="ticket_table_cell"><h4><p><FaStar size={15} color="gold" /><FaStar size={15} color="gold" /><FaStar size={15} color="gold" /></p></h4></td>
+                        <td className="ticket_table_cell">
+                            <MoreVertOutlinedIcon className="table_ticket_details" /></td>
 
-                        <td className="ticket_table_cell"><button onClick={handle_ticket_details}>: </button></td>
                         <td className="ticket_table_cell">{
                             status === 'active' ? <ToggleOnOutlinedIcon className="agent_switch_on" onClick={handle_status} /> :
                                 <ToggleOffOutlinedIcon className='agent_switch_off ' onClick={handle_status} />
@@ -76,7 +78,9 @@ export default function ClientsTable() {
                         <td className="ticket_table_cell"><h4>Status</h4></td>
                         <td className="ticket_table_cell"><h4><p><FaStar size={15} color="gold" /><FaStar size={15} color="gold" /><FaStar size={15} color="gold" /></p></h4></td>
 
-                        <td className="ticket_table_cell"><button onClick={handle_ticket_details}>: </button></td>
+                        <td className="ticket_table_cell">
+                            <MoreVertOutlinedIcon className="table_ticket_details" /></td>
+
                         <td className="ticket_table_cell">{
                             status === 'active' ? <ToggleOnOutlinedIcon className="agent_switch_on" onClick={handle_status} /> :
                                 <ToggleOffOutlinedIcon className='agent_switch_off ' onClick={handle_status} />
@@ -92,7 +96,9 @@ export default function ClientsTable() {
                         <td className="ticket_table_cell"><h4 >Status </h4></td>
                         <td className="ticket_table_cell"><h4><p><FaStar size={15} color="gold" /><FaStar size={15} color="gold" /><FaStar size={15} color="gold" /></p></h4></td>
 
-                        <td className="ticket_table_cell"><button onClick={handle_ticket_details}>: </button></td>
+                        <td className="ticket_table_cell">
+                            <MoreVertOutlinedIcon className="table_ticket_details" /></td>
+
                         <td className="ticket_table_cell">{
                             status === 'active' ? <ToggleOnOutlinedIcon className="agent_switch_on" onClick={handle_status} /> :
                                 <ToggleOffOutlinedIcon className='agent_switch_off ' onClick={handle_status} />
