@@ -27,6 +27,17 @@ export default function Modal({ id, onClose }) {
                                 >
                                     Access And Permission Grants
                                 </label>
+
+                               
+                            </div>
+                            <div className="ticket_subject">
+
+                                
+                                <h5>*Category:</h5>
+                                <label
+                                    className="select_subject"
+                                >Software
+                                </label>
                             </div>
 
                             <div className="ticket_description">
@@ -87,6 +98,7 @@ export default function Modal({ id, onClose }) {
                         <p>Edit Ticket Details</p>
                         <span><p>Ticket ID</p><label>
                             2AW13</label></span>
+
 
                         <span><p>Client Email</p><select>
                             <option>Open</option>
